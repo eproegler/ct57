@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="monitorspec" schemaVersion="9711" VCSUid="285a54da49b457ded6f118b67f8d9cac" name="Eric SOASTA Store 54.175.227.24" path="/">
+    <Body>
+      <MonitorSpec xmlns="http://www.soasta.com/services/repository">
+        
+        <Resources>
+          
+          <Resource customName="ECPSS_54_175_227_24_CPU" frequency="3000" targetInternalID="1001" targetServerID="1" type="CPU" />
+          
+          <Resource customName="" frequency="5000" targetInternalID="1001" targetServerID="1" type="IOBytesRead" />
+          
+          <Resource customName="" frequency="5000" targetInternalID="1001" targetServerID="1" type="IOBytesWritten" />
+          
+          <Resource customName="ECPSS_54_175_227_24_Mem" frequency="3000" targetInternalID="1001" targetServerID="1" type="Memory" />
+          
+          <Resource customName="" frequency="5000" targetInternalID="1001" targetServerID="1" type="NetworkBytesReceived" />
+          
+          <Resource customName="" frequency="5000" targetInternalID="1001" targetServerID="1" type="NetworkBytesSent" />
+          
+          <Resource customName="" frequency="5000" targetInternalID="1001" targetServerID="1" type="ProcessCount" />
+        
+        </Resources>
+      
+      </MonitorSpec>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="resultsServiceID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="autoStart">
+        <Value>false</Value>
+      </Attribute>
+      <Attribute name="autoStartOnce">
+        <Value>true</Value>
+      </Attribute>
+      <Attribute name="resultsDatabaseID">
+        <Value>1</Value>
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="71311" internalID="1001" name="Eric SOASTA Store" path="/Demo" type="target" />
+    </References>
+  </Object>
+</rp:ObjectSet>

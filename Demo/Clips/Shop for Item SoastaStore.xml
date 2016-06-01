@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="messageclip" schemaVersion="9711" VCSUid="22fbb6e17d537894f2fe9c6e1fc6ca74" name="Shop for Item SoastaStore" path="/Demo/Clips">
+    <Body>
+      <MessageClip xmlns="http://www.soasta.com/services/repository">
+        
+        <Targets xmlns="http://www.soasta.com/services/repository">
+          
+          <Target id="0" location="www.soastastore.com" name="www.soastastore.com Demo (www.soastastore.com)" ref="3" scope="public" xmlns="http://www.soasta.com/services/repository" />
+        
+        </Targets>
+        
+        <UserProperties xmlns="http://www.soasta.com/services/repository">
+          
+          <UserProperty name="product_id" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
+            
+            <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
+            
+            <Description xmlns="http://www.soasta.com/services/repository" />
+          
+          </UserProperty>
+          
+          <UserProperty name="Referer">
+            
+            <Value type="Text" />
+          
+          </UserProperty>
+          
+          <UserProperty name="wpsc_ajax_action">
+            
+            <Value type="Text" />
+          
+          </UserProperty>
+        
+        </UserProperties>
+        
+        <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
+        
+        <AppliedSessionTemplates xmlns="http://www.soasta.com/services/repository">
+          
+          
+          
+          
+          <SessionTemplatePackages xmlns="http://www.soasta.com/services/repository">
+            
+            
+            
+            
+            <SessionTemplatePackage appliedBy="mostenberg@soasta.com" dateApplied="Tue Feb 26 12:03:30 PST 2013" name="HCSC" xmlns="http://www.soasta.com/services/repository">
+              
+              
+              
+              
+              <SessionTemplate appliedBy="mostenberg@soasta.com" dateApplied="Tue Feb 26 12:03:30 PST 2013" name="product_id (HCSC)" xmlns="http://www.soasta.com/services/repository">
+                
+                
+                
+                
+                <Pair name="product_id" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                <CustomProperty path="product_id" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                
+                
+                
+                <PropSet name="product_id" xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  <Ref path="product_id" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                  
+                  
+                  
+                  
+                  <Src xmlns="http://www.soasta.com/services/repository">
+                    
+                    
+                    
+                    
+                    <Body multiMatch="first" responseBodyType="html" xmlns="http://www.soasta.com/services/repository" xpath="*[local-name()='HTML']/*[local-name()='BODY']/*[local-name()='DIV']/*[local-name()='DIV'][2]/*[local-name()='DIV'][1]/*[local-name()='DIV']/*[local-name()='DIV'][1]/*[local-name()='DIV']/*[local-name()='DIV'][2]/*[local-name()='DIV']/*[local-name()='DIV'][1]/*[local-name()='DIV'][2]/*[local-name()='FORM']/*[local-name()='INPUT'][2]/@value" />
+                  
+                  
+                  
+                  
+                  </Src>
+                
+                
+                
+                
+                </PropSet>
+                
+                
+                
+                
+                <ExtractMessage xmlns="http://www.soasta.com/services/repository">a3ed0471-c17a-4b3b-8957-18a212a558f9</ExtractMessage>
+                
+                
+                
+                
+                <AppliedMessages xmlns="http://www.soasta.com/services/repository">
+                  
+                  
+                  
+                  
+                  <AppliedMessage xmlns="http://www.soasta.com/services/repository">d1a8d89c-ad3a-44a3-9e00-b68d6a58fd12</AppliedMessage>
+                
+                
+                
+                
+                </AppliedMessages>
+              
+              
+              
+              
+              </SessionTemplate>
+            
+            
+            
+            
+            </SessionTemplatePackage>
+          
+          
+          
+            
+            <SessionTemplatePackage appliedBy="eproegler@soasta.com" dateApplied="Mon Sep 28 14:29:30 PDT 2015" name="Test Scan">
+              
+              <SessionTemplate appliedBy="eproegler@soasta.com" dateApplied="Mon Sep 28 14:29:30 PDT 2015" name="wpsc_ajax_action">
+                
+                <Pair name="wpsc_ajax_action" xmlns="http://www.soasta.com/services/repository" />
+                
+                <CustomProperty path="wpsc_ajax_action" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <PropSet name="wpsc_ajax_action" xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="wpsc_ajax_action" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                  
+                  <Src xmlns="http://www.soasta.com/services/repository">
+                    
+                    <Body multiMatch="first" responseBodyType="html" xmlns="http://www.soasta.com/services/repository" xpath="//*[local-name()='FORM' and @id='product_111']/*[local-name()='INPUT'][1]/@value" />
+                  
+                  </Src>
+                
+                </PropSet>
+                
+                <ExtractMessage>a3ed0471-c17a-4b3b-8957-18a212a558f9</ExtractMessage>
+                
+                <AppliedMessages>
+                  
+                  <AppliedMessage>d1a8d89c-ad3a-44a3-9e00-b68d6a58fd12</AppliedMessage>
+                
+                </AppliedMessages>
+              
+              </SessionTemplate>
+              
+              <SessionTemplate appliedBy="eproegler@soasta.com" dateApplied="Mon Sep 28 14:29:30 PDT 2015" name="Referer">
+                
+                <Pair name="Referer" xmlns="http://www.soasta.com/services/repository" />
+                
+                <CustomProperty path="Referer" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                
+                <PropSet name="Referer" xmlns="http://www.soasta.com/services/repository">
+                  
+                  <Ref path="Referer" pathType="clip" type="user" xmlns="http://www.soasta.com/services/repository" />
+                  
+                  <Src xmlns="http://www.soasta.com/services/repository">
+                    
+                    <Body multiMatch="first" responseBodyType="html" xmlns="http://www.soasta.com/services/repository" xpath="//*[local-name()='HEAD']/*[local-name()='LINK'][17]/@href" />
+                  
+                  </Src>
+                
+                </PropSet>
+                
+                <ExtractMessage>c26dc500-96c2-4f8d-8583-b6460d3bb652</ExtractMessage>
+                
+                <AppliedMessages>
+                  
+                  <AppliedMessage>a3ed0471-c17a-4b3b-8957-18a212a558f9</AppliedMessage>
+                
+                </AppliedMessages>
+              
+              </SessionTemplate>
+            
+            </SessionTemplatePackage>
+          
+          </SessionTemplatePackages>
+        
+        
+        
+        
+        </AppliedSessionTemplates>
+        
+        <PageModification xmlns="http://www.soasta.com/services/repository">
+          
+          <Resources enabled="no-change" xmlns="http://www.soasta.com/services/repository">
+            
+            <Filters type="replace" use="all" xmlns="http://www.soasta.com/services/repository">
+              
+              <Filter expr="*soastastorelogo*" exprType="glob" type="exclude" xmlns="http://www.soasta.com/services/repository" />
+              
+              <Filter expr="*soastastorelogo.jpg*" exprType="glob" type="exclude" xmlns="http://www.soasta.com/services/repository" />
+            
+            </Filters>
+          
+          </Resources>
+        
+        </PageModification>
+      
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="71310" internalID="3" name="www.soastastore.com Demo" path="/" type="target" />
+    </References>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

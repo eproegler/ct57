@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="seeddata" schemaVersion="9711" VCSUid="9a270bc326691b6cfccda6eb10f9d952" name="SOASTA Store Users" path="/">
+    <Body>
+      <SeedData xmlns="http://www.soasta.com/services/repository" />
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="encrypted">
+        <Value>false</Value>
+      </Attribute>
+      <Attribute name="type">
+        <Value>internal</Value>
+      </Attribute>
+    </Attributes>
+  </Object>
+  <SeedDataChunk>"username"
+"testuser1"
+"testuser2"
+"testuser3"
+"testuser4"
+"testuser5"
+</SeedDataChunk>
+</rp:ObjectSet>

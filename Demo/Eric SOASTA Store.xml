@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="target" schemaVersion="9711" VCSUid="419a6a4050a1038228e5ef89862848eb" name="Eric SOASTA Store" path="/Demo">
+    <Body>
+      <Target xmlns="http://www.soasta.com/services/repository">
+        
+        <MonitorDefinition>
+          
+          <Hosts>
+            
+            <Host>54.175.227.24</Host>
+          
+          </Hosts>
+          
+          <JMXServers>
+            
+            <JMXServer>
+              
+              <ID>2</ID>
+              
+              <Name>jmx-1</Name>
+              
+              <Port>1099</Port>
+              
+              <UserName />
+              
+              <Password e="true">flMvbnDYBy8=</Password>
+              
+              <ApplicationServer>JBoss</ApplicationServer>
+            
+            </JMXServer>
+          
+          </JMXServers>
+          
+          <Machines>
+            
+            <Machine>
+              
+              <ID>1</ID>
+              
+              <Name>null</Name>
+              
+              <Port>22</Port>
+              
+              <UserName>ubuntu</UserName>
+              
+              <Password e="true">RJM3YLvY56I=</Password>
+              
+              <OperatingSystem>RedHatEnterpriseLinux</OperatingSystem>
+            
+            </Machine>
+          
+          </Machines>
+          
+          <NetworkDevices>
+            
+            <NetworkDevice>
+              
+              <ID>3</ID>
+              
+              <Port>161</Port>
+              
+              <UserName />
+              
+              <Password e="true">flMvbnDYBy8=</Password>
+            
+            </NetworkDevice>
+          
+          </NetworkDevices>
+        
+        </MonitorDefinition>
+      
+      </Target>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>monitor</Value>
+      </Attribute>
+      <Attribute name="longitude">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="latitude">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+  </Object>
+</rp:ObjectSet>

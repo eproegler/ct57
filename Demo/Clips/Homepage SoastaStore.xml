@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="messageclip" schemaVersion="9711" VCSUid="b13e26b7fd2d4139eb2fa50284c12b58" name="Homepage SoastaStore" path="/Demo/Clips">
+    <Body>
+      <MessageClip xmlns="http://www.soasta.com/services/repository">
+        
+        <Targets xmlns="http://www.soasta.com/services/repository">
+          
+          <Target id="0" location="Eric 6 29 SOASTA Store" name="Eric 6 29 SOASTA Store (Eric 6 29 SOASTA Store)" ref="4" scope="public" xmlns="http://www.soasta.com/services/repository" />
+        
+        </Targets>
+        
+        <UserProperties xmlns="http://www.soasta.com/services/repository" />
+        
+        <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
+        
+        <PageModification xmlns="http://www.soasta.com/services/repository">
+          
+          <Resources enabled="no-change" xmlns="http://www.soasta.com/services/repository">
+            
+            <Filters type="replace" use="dynamic" xmlns="http://www.soasta.com/services/repository">
+              
+              <Filter expr="*soastastorelogo*" exprType="glob" type="exclude" xmlns="http://www.soasta.com/services/repository" />
+            
+            </Filters>
+          
+          </Resources>
+        
+        </PageModification>
+      
+      </MessageClip>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>sequenced</Value>
+      </Attribute>
+    </Attributes>
+    <References>
+      <Reference id="71312" internalID="4" name="Eric 6 29 SOASTA Store" path="/Demo" type="target" />
+    </References>
+    <TipText></TipText>
+  </Object>
+  <Object type="clipelement" schemaVersion="9711" name="S1 T1 Homepage" path="/Demo/Clips/Homepage SoastaStore" parentType="messageclip" uid="fafdf70d-1a1e-4827-96a7-ff1d66e71d1e">
+    <Body>
+      <rp:ClipElement xmlns:rp="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        <TransactionStart xmlns="http://www.soasta.com/services/repository" />
+      
+      
+      
+      
+      </rp:ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>transaction</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText></TipText>
+  </Object>
+  <Object type="clipelement" schemaVersion="9711" name="Load Home Page" path="/Demo/Clips/Homepage SoastaStore//S1 T1 Homepage" parentType="clipelement" uid="7631cd4d-0dd7-43f4-8777-0f9cc39a7a31">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">  
+        
+        
+        
+        
+        <PageStart xmlns:rp="http://www.soasta.com/services/repository">    
+          
+          
+          
+          
+          <Resources enabled="true">      
+            
+            
+            
+            
+            <Static enabled="false" />      
+            
+            
+            
+            
+            <Dynamic enabled="true">       
+              
+              
+              
+              
+              <Options recursive="false" />      
+            
+            
+            
+            
+            </Dynamic>    
+          
+          
+          
+          
+          </Resources>  
+        
+        
+        
+        
+        </PageStart>
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>page</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText></TipText>
+  </Object>
+  <Object type="clipelement" schemaVersion="9711" name="23.20.63.96" path="/Demo/Clips/Homepage SoastaStore//S1 T1 Homepage/Load Home Page" parentType="clipelement" uid="0832deae-f1c3-49c9-b377-5524336f63e9">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        <Message>
+          
+          
+          
+          
+          <Validations>
+            
+            
+            
+            
+            <Validation failure-action="fail" message-fail="Didn't find text: &quot;Using SOASTAStore&quot;" message-pass="Found text: &quot;Using SOASTAStore&quot;" name="Text check: &quot;Using SOASTAStore&quot;">
+              
+              
+              
+              
+              <And>
+                
+                
+                
+                
+                <Body responseBodyType="text" xpath="">
+                  
+                  
+                  
+                  
+                  <Glob>
+                    
+                    
+                    
+                    
+                    <Const>*Using SOASTAStore*</Const>
+                  
+                  
+                  
+                  
+                  </Glob>
+                
+                
+                
+                
+                </Body>
+              
+              
+              
+              
+              </And>
+            
+            
+            
+            
+            </Validation>
+          
+          
+          
+          
+          </Validations>
+          
+          
+          
+          
+          <Content>
+            
+            
+            
+            
+            <HTTPCommon>
+              
+              
+              
+              
+              <Headers>Host: 23.20.63.96
+Accept-Language: en-US,en;q=0.8
+If-Modified-Since: Mon, 19 Nov 2012 19:23:02 GMT
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+Accept-Encoding: gzip,deflate,sdch
+Proxy-Connection: keep-alive
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+</Headers>
+            
+            
+            
+            
+            </HTTPCommon>
+            
+            
+            
+            
+            <REST verb="GET">
+              
+              
+              
+              
+              <Params />
+              
+              
+              
+              
+              <Location>/</Location>
+            
+            
+            
+            
+            </REST>
+          
+          
+          
+          
+          </Content>
+        
+        
+        
+        
+        </Message>
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData>R0VUIC8gSFRUUC8xLjENCkNvb2tpZTogUEhQU0VTU0lEPWc2MDhpa2c2bWlnbjUxcGZnMjAwdHBpam01OyB3cC1zZXR0aW5ncy0xPW01JTNEbyUyNmFsaWduJTNEY2VudGVyJTI2ZWRpdG9yJTNEdGlueW1jZSUyNm05JTNEYyUyNmhpZGV0YiUzRDElMjZtNyUzRGMlMjZtNiUzRGMlMjZtMiUzRG8lMjZtMyUzRGMlMjZtNCUzRG87IHdwLXNldHRpbmdzLXRpbWUtMT0xMzUzMzUwODgyOyB3b3JkcHJlc3NfdGVzdF9jb29raWU9V1ArQ29va2llK2NoZWNrOyB3b3JkcHJlc3NfbG9nZ2VkX2luXzMwYmZlNjM4NTQyMTk0MjYxNjQ4NTliMTI0Mjc5MDE2PWFkbWluJTdDMTM1MzUyNTUxMyU3Q2E5MWQ3NjA3ZDNlMjM5NjVlMjQ1OTQxYTEyNGMxMDYzOyBzZm9ydW1fMzBiZmU2Mzg1NDIxOTQyNjE2NDg1OWIxMjQyNzkwMTY9YWRtaW4NCkhvc3Q6IDIzLjIwLjYzLjk2DQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLVVTLGVuO3E9MC44DQpJZi1Nb2RpZmllZC1TaW5jZTogTW9uLCAxOSBOb3YgMjAxMiAxOToyMzowMiBHTVQNCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksKi8qO3E9MC44DQpVc2VyLUFnZW50OiBNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF84XzIpIEFwcGxlV2ViS2l0LzUzNy4xMSAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8yMy4wLjEyNzEuNjQgU2FmYXJpLzUzNy4xMQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLGRlZmxhdGUsc2RjaA0KUHJveHktQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KQWNjZXB0LUNoYXJzZXQ6IElTTy04ODU5LTEsdXRmLTg7cT0wLjcsKjtxPTAuMw0KDQpIVFRQLzEuMSAyMDAgT0sNCkNhY2hlLUNvbnRyb2w6IG5vLWNhY2hlLCBtdXN0LXJldmFsaWRhdGUsIG1heC1h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</BinaryData>
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>message</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value>get</Value>
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>0</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value>RestGetBinding</Value>
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value>text/html; charset=utf-8</Value>
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText></TipText>
+  </Object>
+  <Object type="clipelement" schemaVersion="9711" name="Delay1" path="/Demo/Clips/Homepage SoastaStore" parentType="messageclip" uid="fab227b7-a63e-4c52-a428-3bcfdd77440f">
+    <Body>
+      <ClipElement xmlns="http://www.soasta.com/services/repository">
+        
+        
+        
+        
+        <Delay>
+          
+          
+          
+          
+          <Options delayLength="5000" />
+        
+        
+        
+        
+        </Delay>
+      
+      
+      
+      
+      </ClipElement>
+    </Body>
+    <BinaryData />
+    <Description></Description>
+    <Attributes>
+      <Attribute name="type">
+        <Value>delay</Value>
+      </Attribute>
+      <Attribute name="operation">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="destinationID">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="offset">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="index">
+        <Value>1</Value>
+      </Attribute>
+      <Attribute name="repeatSpec">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="binding">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="scope">
+        <Value>private</Value>
+      </Attribute>
+      <Attribute name="responseContentType">
+        <Value null="true" />
+      </Attribute>
+      <Attribute name="debugSpec">
+        <Value null="true" />
+      </Attribute>
+    </Attributes>
+    <TipText></TipText>
+  </Object>
+</rp:ObjectSet>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rp:ObjectSet xmlns:rp="http://www.soasta.com/services/repository">
+  <Object type="transition" schemaVersion="9711" VCSUid="1f7c9ae02af1f05b5c2a299dbeeed8e0" name="Random Number Generator" path="/">
+    <Body>
+      <Transition>
+        
+        <Script language="JavaScript">function generateRandomNumber(lowerExtreme, upperExtreme) {
+return Math.floor(Math.random() * (upperExtreme - lowerExtreme) + lowerExtreme);
+}
+var randomNumber = "" + generateRandomNumber(10000,99999);
+$context.result.postMessage($context.result.LEVEL_INFO, "Random number: " +
+randomNumber);
+$prop.set("MessageClip", "randomNumber", randomNumber); 
+</Script>
+      
+      </Transition>
+    </Body>
+    <BinaryData />
+  </Object>
+</rp:ObjectSet>
