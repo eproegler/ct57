@@ -3,81 +3,43 @@
   <Object type="messageclip" schemaVersion="9711" VCSUid="968ed269b9eef24f391c13559202cee0" name="SOASTA Store Comment" path="/Demo">
     <Body>
       <MessageClip xmlns="http://www.soasta.com/services/repository">
-        
         <Targets xmlns="http://www.soasta.com/services/repository">
-          
           <Target id="0" location="54.158.147.117" name="54.158.147.117 (54.158.147.117)" ref="0" scope="public" xmlns="http://www.soasta.com/services/repository" />
-        
         </Targets>
-        
         <UserProperties xmlns="http://www.soasta.com/services/repository">
-          
           <UserProperty name="forum-userform_addpost" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="forum-userform_addtopic" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="_wpnonce" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="page_id" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="topic_idnum" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="randomNumber" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <Value type="Text" xmlns="http://www.soasta.com/services/repository" />
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-          
           <UserProperty name="username" sendToAnalytics="false" xmlns="http://www.soasta.com/services/repository">
-            
             <SeedData xmlns="http://www.soasta.com/services/repository">
-              
               <Source ref="2" xmlns="http://www.soasta.com/services/repository" />
-              
               <Distribution columnCount="-1" eofAction="Wrap" rowRepresentation="Struct" xmlns="http://www.soasta.com/services/repository" />
-            
             </SeedData>
-            
             <Description xmlns="http://www.soasta.com/services/repository" />
-          
           </UserProperty>
-        
         </UserProperties>
-        
         <Options dynamicResourceCache="disabled" interItemDelay="0" xmlns="http://www.soasta.com/services/repository" />
-        
         <AppliedSessionTemplates xmlns="http://www.soasta.com/services/repository">
           
           <SessionTemplatePackages xmlns="http://www.soasta.com/services/repository">
@@ -277,7 +239,6 @@
           </SessionTemplates>
         
         </AppliedSessionTemplates>
-      
       </MessageClip>
     </Body>
     <BinaryData />
@@ -1835,7 +1796,7 @@ Connection: keep-alive
         
         <Delay xmlns="http://www.soasta.com/services/repository">
           
-          <Options delayLength="3158" xmlns="http://www.soasta.com/services/repository" />
+          <Options delayLength="3159" xmlns="http://www.soasta.com/services/repository" />
         
         </Delay>
       
